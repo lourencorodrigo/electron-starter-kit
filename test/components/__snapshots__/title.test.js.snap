@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TITLE COMPONENT +++ should compare the component with a snapshot 1`] = `
+<h1
+  className="title"
+>
+  Welcome to React
+</h1>
+`;
