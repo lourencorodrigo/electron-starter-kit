@@ -12,7 +12,7 @@
   "main": "main.js",
   "scripts": {
     "build": "webpack --config webpack.build.config.js",
-    "deploy": "yarn build && electron-packager ./ --out=./builds",
+    "deploy": "yarn build && electron-packager ./dist --out=./builds",
     "install": "electron-rebuild",
     "package": "webpack --config webpack.build.config.js",
     "prod": "webpack --config webpack.build.config.js && electron --noDevServer .",
@@ -28,6 +28,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babili-webpack-plugin": "^0.1.2",
+    "copy-webpack-plugin": "^4.5.3",
     "css-loader": "^0.28.1",
     "electron-devtools-installer": "^2.2.4",
     "electron-packager": "^9.1.0",
