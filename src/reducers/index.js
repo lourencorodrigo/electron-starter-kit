@@ -2,6 +2,6 @@ import { combineReducers } from 'redux';
 
 import { countryReducer } from './country';
 
-export const Reducers = combineReducers({
+export const reducers = combineReducers({
   countryState: countryReducer
 });
