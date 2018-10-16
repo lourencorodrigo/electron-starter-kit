@@ -10,3 +10,6 @@ This boilerplate has a simple structure with the basic components needed to star
 
 ##### Production
 * Run `yarn deploy`
+
+##### Run Tests
+* Run `yarn test`
